@@ -68,9 +68,9 @@
         【service-order】TxmsgConsumer事务消费
             1.请求成功:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=10
             2.发送端本地抛异常，事务回滚（发送端和消费端都不执行）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=2
-            3.消费端抛异常（消费端自己会有重试机制），消费端事务回滚，上游发送端不回滚（这里要有补偿机制，如人工介入或者回滚上游操作）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=4
+            3.消费端抛异常（消费端自己会有重试机制），消费端事务回滚，上游发送端不回滚（这里要有补偿机制，如人工介入）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=4
     
-    (2)基于阿里seata-server的tcc分布式事务
+    (2)基于阿里seata-server的AT分布式事务
             安装seata-server，具体看【文档/seata-server.md】
             (1)正常调用
                  【http://127.0.0.1:8901/seata/transfer?accountNo=1&amount=5】
