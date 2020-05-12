@@ -1,5 +1,11 @@
 基于SpringCloud微服务搭建的商城系统
 
+系统架构图
+![系统架构图](https://github.com/Asice/mall/blob/master/%E6%96%87%E6%A1%A3/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.jpg)
+
+重点实现功能
+![重点实现功能](https://github.com/Asice/mall/blob/master/%E6%96%87%E6%A1%A3/%E9%87%8D%E7%82%B9%E5%AE%9E%E7%8E%B0.JPG)
+
 几个服务地址
 
     Eureka----http://52.231.207.203:8802/
