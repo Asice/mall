@@ -1,0 +1,120 @@
+2020-05-11 04:39:44.070 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@185a6e9: startup date [Mon May 11 04:39:44 CST 2020]; root of context hierarchy
+2020-05-11 04:39:44.225 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-11 04:39:44.252 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$80ba1881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:39:44.874 [main] INFO  com.cloud.serviceproduct.ServiceProductApplication - The following profiles are active: dev
+2020-05-11 04:39:44.883 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@648c94da: startup date [Mon May 11 04:39:44 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@185a6e9
+2020-05-11 04:39:45.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 04:39:45.516 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0cf9a89-049c-323c-bbaa-4f0dcdbe44bc
+2020-05-11 04:39:45.531 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-11 04:39:45.558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$2b0bd3b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:39:45.621 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$80ba1881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:39:45.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18941 (http)
+2020-05-11 04:39:45.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18941"]
+2020-05-11 04:39:45.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 04:39:45.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-05-11 04:39:45.855 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Golang\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Asice\Anaconda3;C:\Users\Asice\Anaconda3\Library\mingw-w64\bin;C:\Users\Asice\Anaconda3\Library\usr\bin;C:\Users\Asice\Anaconda3\Library\bin;C:\Users\Asice\Anaconda3\Scripts;C:\Users\Asice\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;;C:\Users\Asice\AppData\Local\Programs\Fiddler;C:\Users\Asice\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;;.]
+2020-05-11 04:39:46.010 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 04:39:46.010 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1127 ms
+2020-05-11 04:39:46.124 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-05-11 04:39:46.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-11 04:39:46.130 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-11 04:39:46.130 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-11 04:39:46.130 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-11 04:39:46.159 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'logger'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-11 04:39:46.160 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 04:39:46.171 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 04:39:46.268 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.cloud.serviceproduct.controller.CartController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2020-05-11 04:43:20.143 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7817fd62: startup date [Mon May 11 04:43:20 CST 2020]; root of context hierarchy
+2020-05-11 04:43:20.298 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-11 04:43:20.328 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167e5c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:43:20.961 [main] INFO  com.cloud.serviceproduct.ServiceProductApplication - The following profiles are active: dev
+2020-05-11 04:43:20.970 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77825085: startup date [Mon May 11 04:43:20 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7817fd62
+2020-05-11 04:43:21.414 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 04:43:21.744 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0cf9a89-049c-323c-bbaa-4f0dcdbe44bc
+2020-05-11 04:43:21.759 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-11 04:43:21.791 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c0d0175c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:43:21.861 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167e5c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 04:43:22.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18941 (http)
+2020-05-11 04:43:22.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18941"]
+2020-05-11 04:43:22.085 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 04:43:22.085 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-05-11 04:43:22.088 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Golang\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Asice\Anaconda3;C:\Users\Asice\Anaconda3\Library\mingw-w64\bin;C:\Users\Asice\Anaconda3\Library\usr\bin;C:\Users\Asice\Anaconda3\Library\bin;C:\Users\Asice\Anaconda3\Scripts;C:\Users\Asice\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;;C:\Users\Asice\AppData\Local\Programs\Fiddler;C:\Users\Asice\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;;.]
+2020-05-11 04:43:22.246 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 04:43:22.246 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1276 ms
+2020-05-11 04:43:22.357 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-05-11 04:43:22.361 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-11 04:43:22.361 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-11 04:43:22.362 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-11 04:43:22.362 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-11 04:43:22.442 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 04:43:22.442 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 04:43:22.447 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 04:43:22.448 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 04:43:22.515 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-11 04:43:22.836 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77825085: startup date [Mon May 11 04:43:20 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7817fd62
+2020-05-11 04:43:22.884 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cart/add/{cartId}],methods=[GET]}" onto public java.lang.String com.cloud.serviceproduct.controller.CartController.addToCart(java.lang.String)
+2020-05-11 04:43:22.887 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-11 04:43:22.888 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-11 04:43:22.911 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-11 04:43:22.912 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-11 04:43:23.344 [main] WARN  org.springframework.data.convert.CustomConversions - Registering converter from class org.joda.time.LocalDateTime to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-05-11 04:43:23.359 [main] WARN  org.springframework.data.convert.CustomConversions - Registering converter from class org.joda.time.LocalDateTime to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-05-11 04:43:23.369 [main] WARN  org.springframework.data.convert.CustomConversions - Registering converter from class org.joda.time.LocalDateTime to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-05-11 04:43:24.636 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-05-11 04:43:24.643 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-11 04:43:24.644 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-11 04:43:24.644 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-11 04:43:24.645 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-11 04:43:24.647 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-11 04:43:25.030 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-11 04:43:25.040 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=77825085,type=ConfigurationPropertiesRebinder]
+2020-05-11 04:43:25.047 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-11 04:43:25.062 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2020-05-11 04:43:25.070 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020-05-11 04:43:25.292 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-05-11 04:43:26.631 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-05-11 04:43:26.631 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-05-11 04:43:26.762 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-05-11 04:43:26.762 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-05-11 04:43:26.980 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-05-11 04:43:27.225 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-05-11 04:43:27.585 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-05-11 04:43:27.590 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-05-11 04:43:27.592 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-11 04:43:27.596 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1589143407594 with initial instances count: 4
+2020-05-11 04:43:27.601 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application service-product with eureka with status UP
+2020-05-11 04:43:27.601 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1589143407601, current=UP, previous=STARTING]
+2020-05-11 04:43:27.603 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-PRODUCT/DESKTOP-QHFOQPT.mshome.net:service-product:18941: registering service...
+2020-05-11 04:43:27.611 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-05-11 04:43:27.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18941"]
+2020-05-11 04:43:27.632 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-05-11 04:43:27.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18941 (http) with context path ''
+2020-05-11 04:43:27.652 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 18941
+2020-05-11 04:43:27.655 [main] INFO  com.cloud.serviceproduct.ServiceProductApplication - Started ServiceProductApplication in 9.098 seconds (JVM running for 10.102)
+2020-05-11 04:43:27.729 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-PRODUCT/DESKTOP-QHFOQPT.mshome.net:service-product:18941 - registration status: 204
+2020-05-11 04:43:34.486 [http-nio-18941-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-11 04:43:34.486 [http-nio-18941-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-11 04:43:34.505 [http-nio-18941-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2020-05-11 04:43:34.635 [http-nio-18941-exec-1] INFO  com.cloud.serviceproduct.controller.CartController - 生产订单"çäº§è®¢åå·555688555"

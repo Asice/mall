@@ -1,0 +1,78 @@
+#开发环境
+server:
+  port: 8901
+  host: 52.231.207.203
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${server.host}:8801/eureka/
+
+spring:
+  #mysql数据库
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://52.231.207.203:3306/bank1?characterEncoding=utf8
+    username: root
+    password: sphinx1685
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+
+  #redis lettuce模式配置
+  redis:
+    database: 0
+    timeout: 3000
+    password: oopss1256
+    lettuce:
+      pool:
+        min-idle: 50
+        max-idle: 500
+        max-active: 1000
+        max-wait: 1000
+    sentinel: #哨兵模式
+      master: mymaster
+      password: oopss1256
+      nodes: ${server.host}:26379,${server.host}:26380,${server.host}:26380
+  #rabbitmq
+  rabbitmq:
+    host: ${server.host}
+    port: 5672
+    username: guest
+    password: guest
+  #zipkin
+  zipkin:
+    base-url: http://${server.host}:9411/
+    enabled: true
+    sender:
+      type: rabbit
+  #接口默认全部采样
+  sleuth:
+    sampler:
+      probability: 1
+  kafka:
+    bootstrap-servers: 52.231.207.203:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: testGroup
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      auto-commit-interval: 100
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+
+rocketmq:
+  name-server: 52.231.207.203:9876 # NameServer地址
+  producer:
+    group: producer_bank1 # 生产者的组名
+    sendMsgTimeout: 10000
+  consumer:
+    group: producer_bank1 # 消费者的组名

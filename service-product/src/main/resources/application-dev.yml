@@ -1,0 +1,41 @@
+#开发环境
+server:
+  port: 18941
+  host: 52.231.207.203
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${server.host}:8801/eureka/
+
+spring:
+  #redis lettuce模式配置
+  redis:
+    database: 0
+    timeout: 3000
+    password: oopss1256
+    lettuce:
+      pool:
+        min-idle: 50
+        max-idle: 500
+        max-active: 1000
+        max-wait: 1000
+    sentinel: #哨兵模式
+      master: mymaster
+      password: oopss1256
+      nodes: ${server.host}:26379,${server.host}:26380,${server.host}:26380
+  #rabbitmq
+  rabbitmq:
+    host: ${server.host}
+    port: 5672
+    username: guest
+    password: guest
+  #zipkin
+  zipkin:
+    base-url: http://${server.host}:9411/
+    enabled: true
+    sender:
+      type: rabbit
+  #接口默认全部采样
+  sleuth:
+    sampler:
+      probability: 1

@@ -1,0 +1,15 @@
+2020-05-11 04:33:55 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.cloud.serviceproduct.controller.CartController required a bean of type 'org.slf4j.Logger' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+

@@ -1,0 +1,7 @@
+# Project exclude paths
+/base-config/target/
+/base-eureka-center/target/
+/service-admin/target/
+/service-order/target/
+/service-product/target/
+/service-push/target/

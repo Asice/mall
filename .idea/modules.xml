@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-config/base-config.iml" filepath="$PROJECT_DIR$/base-config/base-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-eureka-center/base-eureka-center.iml" filepath="$PROJECT_DIR$/base-eureka-center/base-eureka-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-gateway/base-gateway.iml" filepath="$PROJECT_DIR$/base-gateway/base-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-monitor/base-monitor.iml" filepath="$PROJECT_DIR$/base-monitor/base-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-quartz/base-quartz.iml" filepath="$PROJECT_DIR$/base-quartz/base-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-base/common-base.iml" filepath="$PROJECT_DIR$/common-base/common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall.iml" filepath="$PROJECT_DIR$/mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-admin/service-admin.iml" filepath="$PROJECT_DIR$/service-admin/service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-erp/service-erp.iml" filepath="$PROJECT_DIR$/service-erp/service-erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-order/service-order.iml" filepath="$PROJECT_DIR$/service-order/service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-product/service-product.iml" filepath="$PROJECT_DIR$/service-product/service-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-push/service-push.iml" filepath="$PROJECT_DIR$/service-push/service-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-search/service-search.iml" filepath="$PROJECT_DIR$/service-search/service-search.iml" />
+    </modules>
+  </component>
+</project>
