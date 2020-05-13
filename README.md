@@ -8,8 +8,7 @@
 
 几个服务地址
     
-    [visist it](http://118.178.89.159)
-    Eureka----[diz](http://52.231.207.203:8802/)
+    Eureka----http://52.231.207.203:8802/
     Rabbit----http://52.231.207.203:15672/（账号密码都是guest）
     Zipkin----http://52.231.207.203:9411/zipkin/ （通过官方的docker image运行，不需要自己建zipkin-server）
         RestTemplate调用：http://52.231.207.203:9411/zipkin/traces/e9b16e10f768efe9
