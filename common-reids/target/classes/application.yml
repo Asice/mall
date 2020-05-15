@@ -1,0 +1,16 @@
+spring:
+  #redis lettuce模式配置
+  redis:
+    database: 0
+    timeout: 3000
+    password: oopss1256
+    lettuce:
+      pool:
+        min-idle: 50
+        max-idle: 500
+        max-active: 1000
+        max-wait: 1000
+    sentinel: #哨兵模式
+      master: mymaster
+      password: oopss1256
+      nodes: 52.231.207.203:26379,52.231.207.203:26380,52.231.207.203:26380
