@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/base-quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-reids/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-reids/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-admin/src/main/resources/application-dev.yml" charset="UTF-8" />

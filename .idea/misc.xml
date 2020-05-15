@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/service-erp/pom.xml" />
         <option value="$PROJECT_DIR$/service-push/pom.xml" />
         <option value="$PROJECT_DIR$/common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/common-reids/pom.xml" />
       </list>
     </option>
   </component>

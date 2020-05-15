@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/base-monitor/base-monitor.iml" filepath="$PROJECT_DIR$/base-monitor/base-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-quartz/base-quartz.iml" filepath="$PROJECT_DIR$/base-quartz/base-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-base/common-base.iml" filepath="$PROJECT_DIR$/common-base/common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-reids/common-reids.iml" filepath="$PROJECT_DIR$/common-reids/common-reids.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall.iml" filepath="$PROJECT_DIR$/mall.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-admin/service-admin.iml" filepath="$PROJECT_DIR$/service-admin/service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />

@@ -22,9 +22,10 @@ public class RedisTest {
 
     @Test
     public void setTest() {
-        redisTemplate.opsForValue().set("one","中文");
-
-        redisTemplate.opsForHash().put("hash","key","value");
+        redisTemplate.opsForValue().set("one","112");
+        String value=(String)redisTemplate.opsForValue().get("one");
+        System.out.println(value);
+       /* redisTemplate.opsForHash().put("hash","key","value");
 
         new Thread(()->{
             ExecutorService executorService = Executors.newFixedThreadPool(1000);
@@ -36,7 +37,7 @@ public class RedisTest {
                 }
                 executorService.execute(() -> redisTemplate.opsForValue().increment("num", 1));
             });
-        }).start();
+        }).start();*/
 
         System.out.println("end");
     }

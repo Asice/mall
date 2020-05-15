@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-push" />
-        <module name="common-base" />
-        <module name="service-erp" />
-        <module name="service-order" />
-        <module name="base-quartz" />
-        <module name="service-api" />
         <module name="base-eureka-center" />
+        <module name="service-erp" />
+        <module name="base-quartz" />
+        <module name="service-order" />
         <module name="base-gateway" />
-        <module name="base-monitor" />
-        <module name="base-config" />
-        <module name="service-product" />
-        <module name="service-search" />
         <module name="service-admin" />
+        <module name="base-config" />
+        <module name="common-reids" />
+        <module name="common-base" />
+        <module name="service-search" />
+        <module name="service-product" />
+        <module name="service-api" />
+        <module name="service-push" />
+        <module name="base-monitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="base-monitor" target="1.8" />
       <module name="base-quartz" target="1.8" />
       <module name="common-base" target="1.8" />
+      <module name="common-reids" target="1.8" />
       <module name="mall" target="1.8" />
       <module name="service-admin" target="1.8" />
       <module name="service-api" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="base-monitor" options="-parameters" />
       <module name="base-quartz" options="-parameters" />
       <module name="common-base" options="-parameters" />
+      <module name="common-reids" options="-parameters" />
       <module name="mall" options="-parameters" />
       <module name="service-admin" options="-parameters" />
       <module name="service-api" options="-parameters" />

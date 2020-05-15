@@ -24,21 +24,6 @@ spring:
         usertype:
           autoRegisterUserTypes: true
 
-  #redis lettuce模式配置
-  redis:
-    database: 0
-    timeout: 3000
-    password: oopss1256
-    lettuce:
-      pool:
-        min-idle: 50
-        max-idle: 500
-        max-active: 1000
-        max-wait: 1000
-    sentinel: #哨兵模式
-      master: mymaster
-      password: oopss1256
-      nodes: ${server.host}:26379,${server.host}:26380,${server.host}:26380
   #rabbitmq
   rabbitmq:
     host: ${server.host}
