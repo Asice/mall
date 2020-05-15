@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+server:
+  port: 8883
+spring:
+  application:
+    name: base-config
+  cloud:
+    config:
+      server:
+        git:
+          #uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://github.com/Asice/mall-config
+          repos:
+          - patterns: mall-config-*
+            #uri: https://github.com/spring-cloud-samples/config-repo
+            uri: https://github.com/Asice/mall-config
+          default-label: master

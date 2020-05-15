@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-product
+  profiles:
+    active: dev #默认为开发环境
+
+logging:
+  level:
+    root: info
+  path: ./logs

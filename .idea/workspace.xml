@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a6d56cd-3325-4573-b54f-d182e90896f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common-reids/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-reids/common-reids.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-reids/src/main/resources/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-config/base-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-config/base-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-eureka-center/base-eureka-center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-eureka-center/base-eureka-center.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-gateway/base-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-gateway/base-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-monitor/base-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-monitor/base-monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-quartz/base-quartz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-quartz/base-quartz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-base/common-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-base/common-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/service-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/service-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/java/com/cloud/serviceadmin/ServiceAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/main/java/com/cloud/serviceadmin/ServiceAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/java/com/cloud/serviceadmin/conf/LettuceRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-reids/src/main/java/com/cloud/commonreids/conf/LettuceRedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/test/java/com/cloud/serviceadmin/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/test/java/com/cloud/serviceadmin/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-erp/service-erp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-erp/service-erp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-push/service-push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-push/service-push.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-search/service-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-search/service-search.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\java\workspaceIDEA\mall" />
+        <option value="D:\java\workspaceIDEA\mall\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bWrMhuzJZcGYw24x5fAofLJooF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/文档" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cloud.serviceadmin.service" />
+      <recent name="com.cloud.serviceadmin.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.commonreids.conf" />
+      <recent name="com.cloud.serviceadmin" />
+      <recent name="com.cloud.serviceorder.controller" />
+      <recent name="com.cloud.serviceadmin.service.impl" />
+      <recent name="com.cloud.serviceadmin.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\workspaceIDEA\mall\文档" />
+      <recent name="D:\java\workspaceIDEA\mall\service-order\src\main\resources" />
+      <recent name="D:\java\workspaceIDEA\mall\service-admin\src\main\resources" />
+      <recent name="D:\java\workspaceIDEA\mall\service-order\src\main\java\com\cloud\serviceorder\service" />
+      <recent name="D:\java\workspaceIDEA\mall\service-order\src\main\java\com\cloud\serviceorder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisTest">
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.serviceadmin.Producer" />
+      <module name="service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.serviceadmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.serviceadmin.ServiceAdminApplication" />
+      <module name="service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.serviceadmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseEurekaCenterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="base-eureka-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.baseeurekacenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.baseeurekacenter" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.baseeurekacenter.BaseEurekaCenterApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.serviceadmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.serviceadmin" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.serviceadmin.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.setTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.serviceadmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.serviceadmin" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.serviceadmin.RedisTest" />
+      <option name="METHOD_NAME" value="setTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.baseconfig.BaseConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseEurekaCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="base-eureka-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.baseeurekacenter.BaseEurekaCenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.profiles.active" />
+          <option name="value" value="peer2" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.basegateway.BaseGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.basemonitor.BaseMonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseQuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.basequartz.BaseQuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.commonbase.CommonBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonReidsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-reids" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.commonreids.CommonReidsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.mall.MallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceadmin.ServiceAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceapi.ServiceApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceErpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-erp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceerp.ServiceErpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceorder.ServiceOrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceproduct.ServiceProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePushApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-push" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.servicepush.ServicePushApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.servicesearch.ServiceSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="JUnit.BaseEurekaCenterApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.RedisTest.setTest" />
+      <item itemvalue="JUnit.RedisTest" />
+      <item itemvalue="Spring Boot.BaseEurekaCenterApplication" />
+      <item itemvalue="Spring Boot.MallApplication" />
+      <item itemvalue="Spring Boot.BaseQuartzApplication" />
+      <item itemvalue="Spring Boot.BaseConfigApplication" />
+      <item itemvalue="Spring Boot.BaseGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.BaseMonitorApplication" />
+      <item itemvalue="Spring Boot.ServiceAdminApplication" />
+      <item itemvalue="Spring Boot.ServiceSearchApplication" />
+      <item itemvalue="Spring Boot.ServiceApiApplication" />
+      <item itemvalue="Spring Boot.ServiceProductApplication" />
+      <item itemvalue="Spring Boot.ServiceErpApplication" />
+      <item itemvalue="Spring Boot.ServicePushApplication" />
+      <item itemvalue="Spring Boot.CommonBaseApplication" />
+      <item itemvalue="Spring Boot.CommonReidsApplication" />
+      <item itemvalue="Application.ServiceAdminApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="JUnit.RedisTest.setTest" />
+        <item itemvalue="Application.ServiceAdminApplication" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="JUnit.BaseEurekaCenterApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Asice\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a6d56cd-3325-4573-b54f-d182e90896f9" name="Default Changelist" comment="" />
+      <created>1588758644486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588758644486</updated>
+      <workItem from="1588758645892" duration="5917000" />
+      <workItem from="1588843704060" duration="4820000" />
+      <workItem from="1589039472796" duration="77306000" />
+      <workItem from="1589223382792" duration="34000" />
+      <workItem from="1589239164265" duration="51192000" />
+      <workItem from="1589323744863" duration="246000" />
+      <workItem from="1589324011488" duration="1354000" />
+      <workItem from="1589325470392" duration="167000" />
+      <workItem from="1589325656106" duration="2696000" />
+      <workItem from="1589453250429" duration="2980000" />
+      <workItem from="1589493200873" duration="2675000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1589321208323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589321208323</updated>
+    </task>
+    <task id="LOCAL-00002" summary="系统架构图">
+      <created>1589322427717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589322427717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1589325747269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589325747269</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1589326381856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589326381856</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="系统架构图" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="73" key="#Assign_Data_Sources" timestamp="1589240351889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="73" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1589240351889" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589132516053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589132516053" />
+    <state x="530" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589322904429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589322904429" />
+    <state x="548" y="120" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588759425862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="120" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1588759425862" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1589311914411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589311914411" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588759450368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588759450368" />
+    <state x="359" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589240015268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="359" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589240015268" />
+    <state x="537" y="278" width="593" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589241679052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="278" width="593" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589241679052" />
+    <state x="499" y="161" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589295885663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="161" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589295885663" />
+    <state x="499" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1589246371492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589246371492" />
+    <state x="232" y="9" key="CommitChangelistDialog2" timestamp="1589525297732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="232" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589525297732" />
+    <state x="0" y="64" key="DiffContextDialog" timestamp="1589323374384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1589323374384" />
+    <state x="503" y="176" key="EnvironmentVariablesDialog" timestamp="1588759389687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="176" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588759389687" />
+    <state x="543" y="156" key="FileChooserDialogImpl" timestamp="1589325004350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589325004350" />
+    <state x="593" y="326" width="373" height="172" key="Github.CreateGistDialog" timestamp="1589324131030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="326" width="373" height="172" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1589324131030" />
+    <state x="643" y="307" width="273" height="278" key="Github.ShareDialog" timestamp="1589325288051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="307" width="273" height="278" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1589325288051" />
+    <state x="391" y="120" key="Github.UntrackedFilesDialog" timestamp="1589321053991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="120" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589321053991" />
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1589525244008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589525244008" />
+    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1589525244008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589525244008" />
+    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1589525244007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589525244007" />
+    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1589525244008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589525244008" />
+    <state width="1493" height="318" key="GridCell.Tab.1.bottom" timestamp="1589493177788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="318" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589493177788" />
+    <state width="1493" height="318" key="GridCell.Tab.1.center" timestamp="1589493177788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="318" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589493177788" />
+    <state width="1493" height="318" key="GridCell.Tab.1.left" timestamp="1589493177788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="318" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589493177788" />
+    <state width="1493" height="318" key="GridCell.Tab.1.right" timestamp="1589493177788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="318" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589493177788" />
+    <state width="1493" height="343" key="GridCell.Tab.2.bottom" timestamp="1589323703484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="343" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589323703484" />
+    <state width="1493" height="343" key="GridCell.Tab.2.center" timestamp="1589323703484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="343" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589323703484" />
+    <state width="1493" height="343" key="GridCell.Tab.2.left" timestamp="1589323703484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="343" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589323703484" />
+    <state width="1493" height="343" key="GridCell.Tab.2.right" timestamp="1589323703484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="343" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589323703484" />
+    <state x="580" y="125" key="RollbackChangesDialog" timestamp="1589323406031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="125" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589323406031" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1589325634851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589325634851" />
+    <state x="536" y="130" key="VCS.ChangeListViewerDialog" timestamp="1589322549916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="536" y="130" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1589322549916" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1589326391330">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589326391330" />
+    <state x="520" y="149" key="VcsDiffUtil.ChangesDialog" timestamp="1589323326659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="149" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589323326659" />
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589493542543">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589493542543" />
+    <state x="457" y="172" width="621" height="480" key="find.popup" timestamp="1589315934279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="172" width="621" height="480" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589315934279" />
+    <state x="560" y="214" key="git4idea.merge.GitMergeDialog" timestamp="1589323492205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="214" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1589323492205" />
+    <state x="340" y="141" width="1180" height="558" key="new project wizard" timestamp="1589453398438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="141" width="1180" height="558" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589453398438" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589138543359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589138543359" />
+    <state x="572" y="103" key="svn.repositoryBrowser" timestamp="1589325329924">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="103" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1589325329924" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-admin/src/main/java/com/cloud/serviceadmin/controller/FeignController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+#非默认配置文件，需要带参数启动（--spring.profiles.active=peer1）
+server:
+  port: 8802
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    #如果需要多注册中心
+    serviceUrl:
+      defaultZone: http://52.231.207.203:8801/eureka/
+
+spring:
+  application:
+    name: base-eureka-center
