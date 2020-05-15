@@ -7,7 +7,7 @@
 ![重点实现功能](https://github.com/Asice/mall/blob/master/%E6%96%87%E6%A1%A3/%E9%87%8D%E7%82%B9%E5%AE%9E%E7%8E%B0.JPG)
 
 几个服务地址
-
+    
     Eureka----http://52.231.207.203:8802/
     Rabbit----http://52.231.207.203:15672/（账号密码都是guest）
     Zipkin----http://52.231.207.203:9411/zipkin/ （通过官方的docker image运行，不需要自己建zipkin-server）
@@ -68,9 +68,9 @@
         【service-order】TxmsgConsumer事务消费
             1.请求成功:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=10
             2.发送端本地抛异常，事务回滚（发送端和消费端都不执行）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=2
-            3.消费端抛异常（消费端自己会有重试机制），消费端事务回滚，上游发送端不回滚（这里要有补偿机制，如人工介入或者回滚上游操作）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=4
+            3.消费端抛异常（消费端自己会有重试机制），消费端事务回滚，上游发送端不回滚（这里要有补偿机制，如人工介入）:http://127.0.0.1:8901/rocketmq/transfer?accountNo=1&amount=4
     
-    (2)基于阿里seata-server的tcc分布式事务
+    (2)基于阿里seata-server的AT分布式事务
             安装seata-server，具体看【文档/seata-server.md】
             (1)正常调用
                  【http://127.0.0.1:8901/seata/transfer?accountNo=1&amount=5】
