@@ -15,6 +15,7 @@
         Feign远程调用：http://52.231.207.203:9411/zipkin/traces/90623893627becef
     kafka----http://52.231.207.203:9000/
     kafka集群搭建https://www.jianshu.com/p/e324ceabf494
+    ELK(kibana)----http://52.231.207.203:5601/app/kibana
 
 实现功能
 
